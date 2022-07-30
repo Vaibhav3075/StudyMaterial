@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyMaterial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbarmaterial">
+        
+        <div class="heading">Study Material</div>
+        <div> </div>
+        <a href="index.html"><div class="item">Home</div></a>
+        <div  onmouseover="hoverover1()" onmouseleave="hoverout2()">
+            <div class="item">Menu</div>
+            <div id="menudis">
+                
+                    <a href="syllabus.html"> <div>Syllabus</div></a> 
+                    <a href="study_material.html"> <div>Study Material and Questions</div></a>                 
+                
+            </div>
+        </div>
+        <div class="item">Contact Us</div>
+    </div>
+
+    <div class="syllabus">
+        <!-- <hr class="hr"> -->
+
+        <ul>
+            <br><li ><button class="list" onclick="toggle(0)">Electronics and Communication Engineering</button> </li>
+            <div class="selectsem">
+                <div class="sem" onclick="togglesubject(0)">1st semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/18WP9EaaIA2XRE98UtPFtTr9NGqTVVGAf"><div class="eachsub">Applied Chemistry</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AlXdaIQTIcO-T9YIgpnL8kA-mweEcX5C"><div class="eachsub">Calculus</div></a>
+                    <a href="https://drive.google.com/drive/folders/1CBaT4uFN7zZknL8Ab2u5dOvZi4uK1Zrs"><div class="eachsub">PPS(C)</div></a>
+                    <a href="https://drive.google.com/drive/folders/1BJkwJyEbyw3a8k0J9oGNq7wWNw2_Tc9R"><div class="eachsub">Introduction to Electronics</div></a>
+                    
+                </div>
+                <div class="sem" onclick="togglesubject(1)">2nd semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/16qXgN6wX1ax6446LctKmZPqyl4NBctd-"><div class="eachsub">Physics</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AoJBCCgbjuo4hO-6kcPnXIsYRMwFImqE"><div class="eachsub">DE and Transform</div></a>
+                    <a href="https://drive.google.com/drive/folders/1Dx_25aH4A8pThTqAYVp82g9RslAQjrle"><div class="eachsub">Workshop</div></a>
+                    <a href="https://drive.google.com/drive/folders/1CPtzYKLNguQwFeXDIOOhndvMSDkoNNgg"><div class="eachsub">Professtional Communication</div></a>
+                    
+                </div>
+                <a href="https://drive.google.com/drive/folders/1Mstyk4UY1wGl4cOOieEMB6rQGEYNhF34"><div class="sem">Questions</div></a>
+                
+            </div>
+            <br><li ><button class="list" onclick="toggle(1)">Information Technology</button> </li>
+            <div class="selectsem">
+                <div class="sem" onclick="togglesubject(2)">1st semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/16qXgN6wX1ax6446LctKmZPqyl4NBctd-"><div class="eachsub">Physics</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AlXdaIQTIcO-T9YIgpnL8kA-mweEcX5C"><div class="eachsub">Calculus</div></a>
+                    <a href="https://drive.google.com/drive/folders/1CBaT4uFN7zZknL8Ab2u5dOvZi4uK1Zrs"><div class="eachsub">PPS(C)</div></a>
+                    <a href="https://drive.google.com/drive/folders/1Dx_25aH4A8pThTqAYVp82g9RslAQjrle"><div class="eachsub">Workshop</div></a>
+                    
+                </div>
+                <div class="sem" onclick="togglesubject(3)">2nd semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/18WP9EaaIA2XRE98UtPFtTr9NGqTVVGAf"><div class="eachsub">Applied Chemistry</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AoJBCCgbjuo4hO-6kcPnXIsYRMwFImqE"><div class="eachsub">DE and Transform</div></a>
+                    <a href="https://drive.google.com/drive/folders/1CPtzYKLNguQwFeXDIOOhndvMSDkoNNgg"><div class="eachsub">Professtional Communication</div></a>
+                    <a href="https://drive.google.com/drive/folders/1BT_b25LKtKDB9I3yEMuU49MQVCLvGvoF"><div class="eachsub">OOPs</div></a>
+                    <a href="https://drive.google.com/drive/folders/1ANU6bfRKRS1gcviw95bdNko4GBF946VS"><div class="eachsub">BITC</div></a>
+                    
+                </div>
+                <a href="https://drive.google.com/drive/folders/1MOWdX6Hobd1TaQa21HrIovvMc5jlirmu"><div class="sem">Questions</div></a>
+                
+            </div>
+            <br><li ><button class="list" onclick="toggle(2)">Computer Science Engineering</button> </li>
+            <div class="selectsem">
+                <div class="sem" onclick="togglesubject(4)">1st semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/16qXgN6wX1ax6446LctKmZPqyl4NBctd-"><div class="eachsub">Physics</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AlXdaIQTIcO-T9YIgpnL8kA-mweEcX5C"><div class="eachsub">Calculus</div></a>
+                    <a href="https://drive.google.com/drive/folders/1CBaT4uFN7zZknL8Ab2u5dOvZi4uK1Zrs"><div class="eachsub">PPS(C)</div></a>
+                    <a href="https://drive.google.com/drive/folders/1Dx_25aH4A8pThTqAYVp82g9RslAQjrle"><div class="eachsub">Workshop</div></a>
+                    
+                </div>
+                <div class="sem" onclick="togglesubject(5)">2nd semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/18WP9EaaIA2XRE98UtPFtTr9NGqTVVGAf"><div class="eachsub">Applied Chemistry</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AoJBCCgbjuo4hO-6kcPnXIsYRMwFImqE"><div class="eachsub">DE and Transform</div></a>
+                    <a href="https://drive.google.com/drive/folders/1CPtzYKLNguQwFeXDIOOhndvMSDkoNNgg"><div class="eachsub">Professtional Communication</div></a>
+                    <a href="https://drive.google.com/drive/folders/1BT_b25LKtKDB9I3yEMuU49MQVCLvGvoF"><div class="eachsub">OOPs</div></a>
+                    
+                </div>
+                <a href="https://drive.google.com/drive/folders/1Kfr3bH4PiGD-2Cf3gGUHSHxpvxZkXoIC"><div class="sem">Questions</div></a>
+                
+            </div>
+            <br><li ><button class="list" onclick="toggle(3)">Mechanical Engineering</button> </li>
+            <div class="selectsem">
+                <div class="sem" onclick="togglesubject(6)">1st semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/18WP9EaaIA2XRE98UtPFtTr9NGqTVVGAf"><div class="eachsub">Applied Chemistry</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AlXdaIQTIcO-T9YIgpnL8kA-mweEcX5C"><div class="eachsub">Calculus</div></a>
+                    <a href="https://drive.google.com/drive/folders/1CPtzYKLNguQwFeXDIOOhndvMSDkoNNgg"><div class="eachsub">Professtional Communication</div></a>
+                    
+                </div>
+                <div class="sem" onclick="togglesubject(7)">2nd semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/16qXgN6wX1ax6446LctKmZPqyl4NBctd-"><div class="eachsub">Physics</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AoJBCCgbjuo4hO-6kcPnXIsYRMwFImqE"><div class="eachsub">DE and Transform</div></a>
+                    <a href="https://drive.google.com/drive/folders/1Dx_25aH4A8pThTqAYVp82g9RslAQjrle"><div class="eachsub">Workshop</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AF-qbXgIFSnu9c6LVOWmQC9lcM_lOCWR"><div class="eachsub">Basics of EEE</div></a>
+                    
+                </div>
+                
+            </div>
+            <br><li ><button class="list" onclick="toggle(4)">ELectrial and Electronics Engineering</button> </li>
+            <div class="selectsem">
+                <div class="sem" onclick="togglesubject(8)">1st semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/18WP9EaaIA2XRE98UtPFtTr9NGqTVVGAf"><div class="eachsub">Applied Chemistry</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AlXdaIQTIcO-T9YIgpnL8kA-mweEcX5C"><div class="eachsub">Calculus</div></a>
+                    <a href="https://drive.google.com/drive/folders/1CPtzYKLNguQwFeXDIOOhndvMSDkoNNgg"><div class="eachsub">Professtional Communication</div></a>
+                    
+                </div>
+                <div class="sem" onclick="togglesubject(9)">2nd semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/16qXgN6wX1ax6446LctKmZPqyl4NBctd-"><div class="eachsub">Physics</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AoJBCCgbjuo4hO-6kcPnXIsYRMwFImqE"><div class="eachsub">DE and Transform</div></a>
+                    <a href="https://drive.google.com/drive/folders/1Dx_25aH4A8pThTqAYVp82g9RslAQjrle"><div class="eachsub">Workshop</div></a>
+                    <a href="https://drive.google.com/drive/folders/1AF-qbXgIFSnu9c6LVOWmQC9lcM_lOCWR"><div class="eachsub">Basics of EEE</div></a>
+                    <a href="https://drive.google.com/drive/folders/1CBaT4uFN7zZknL8Ab2u5dOvZi4uK1Zrs"><div class="eachsub">PPS(C)</div></a>
+                    
+                </div>
+                <a href="https://drive.google.com/drive/folders/1NiGHVWGGkd8GGt-DN-CJ7FcVB523G3JJ"><div class="sem">Questions</div></a>
+                
+            </div>
+            <br><li ><button class="list" onclick="toggle(5)">Bio-Technology Engineering</button> </li>
+            <div class="selectsem">
+                <div class="sem" onclick="togglesubject(10)">1st semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/1AlXdaIQTIcO-T9YIgpnL8kA-mweEcX5C"><div class="eachsub">Calculus</div></a>
+                    <a href="https://drive.google.com/drive/folders/16qXgN6wX1ax6446LctKmZPqyl4NBctd-"><div class="eachsub">Physics</div></a>
+                    
+                </div>
+                <div class="sem" onclick="togglesubject(11)">2nd semester</div>
+                <div class="selectsub">
+                    <a href="https://drive.google.com/drive/folders/1AoJBCCgbjuo4hO-6kcPnXIsYRMwFImqE"><div class="eachsub">DE and Transform</div></a>
+                    <a href="https://drive.google.com/drive/folders/1CPtzYKLNguQwFeXDIOOhndvMSDkoNNgg"><div class="eachsub">Professtional Communication</div></a>
+                    <a href="https://drive.google.com/drive/folders/1Dx_25aH4A8pThTqAYVp82g9RslAQjrle"><div class="eachsub">Workshop</div></a>
+                    
+                </div>
+                <a href="https://drive.google.com/drive/folders/1OFuefpBZl5PL1w_17BSHHUQ0WJPxHXe0"><div class="sem">Questions</div></a>
+                
+            </div>
+            
+        </ul>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
